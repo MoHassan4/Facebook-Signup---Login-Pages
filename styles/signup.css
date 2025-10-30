@@ -1,0 +1,18 @@
+.container{
+    box-shadow : 0 2px 20px 2px rgb(150 150 150) !important;
+}
+[type=radio]+label{
+    cursor: pointer;
+}
+label{
+    color : #1877f2 ;
+}
+[type=radio]:checked+label{
+    color : #1877f2 !important
+}
+[type=date]{
+    color : #1360c4
+}
+input:focus{
+    border:2px solid #1360c4 !important;
+}

@@ -1,0 +1,41 @@
+.container{
+    height: 80vh;
+    caret-color: blue;
+}
+a:hover{
+    text-decoration: underline !important;
+}
+.left h1{
+    font-size: 4rem ;
+    letter-spacing: 0.2rem;
+}
+.left p{
+    color : #6e6d6d;
+    font-size: 1.6rem;
+}
+form{
+    box-shadow : 0 2px 20px 2px rgb(150 150 150) !important;
+}
+.create-btn{
+    background-color: #42b72a;
+}
+.create-btn:hover{
+    background-color: green;
+}
+
+@media screen and (max-width : 575px){
+    .container{
+        width : 100%;
+        flex-direction: column;
+        gap:0.8rem;
+    }
+    .left h1,
+    .left p{
+        width : 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .create-btn{
+        width : 80%;
+    }
+}
